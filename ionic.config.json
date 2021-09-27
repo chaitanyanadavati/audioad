@@ -1,0 +1,8 @@
+{
+  "name": "audio-ad",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "2daa97c0"
+}
