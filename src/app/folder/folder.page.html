@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <img [routerLink]="['/']" alt="logo" class="logo" src="assets/audio-ad-logo.jpeg" />
   </ion-toolbar>
 </ion-header>
 
@@ -14,8 +14,39 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <ion-slides
+    [pager]="false"
+    (ionSlideWillChange)="onSlideWillChange()"
+    (ionSlideDidChange)="onSlideDidChange()"
+  >
+    <ion-slide><div>DevOps</div></ion-slide>
+    <ion-slide><div>AI</div></ion-slide>
+    <ion-slide><div>ML</div></ion-slide>
+    <ion-slide><div>Business</div></ion-slide>
+    <ion-slide><div>Yoga</div></ion-slide>
+    <ion-slide><div>Boxing</div></ion-slide>
+    <ion-slide><div>React</div></ion-slide>
+    <ion-slide><div>Angular</div></ion-slide>
+  </ion-slides>
+
+  <div *ngIf="cards?.length > 0" class="posts">
+    <div *ngFor="let card of cards" class="card" (click)="navigateTo('/post')">
+      <div class="image">
+        <img />
+      </div>
+      <div class="actions">
+        <ion-icon name="heart"></ion-icon>
+        <ion-icon name="cash"></ion-icon>
+        <ion-icon name="checkmark-circle"></ion-icon>
+      </div>
+      <ion-icon class="play" name="play"></ion-icon>
+      <div class="card-bottom">
+        <div class="card-title">
+          <h4>{{card.title}}</h4>
+          <p>{{card.publishedDate}}</p>
+        </div>
+        <p>{{card.location}}</p>
+      </div>
+    </div>
   </div>
 </ion-content>
