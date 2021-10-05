@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+      <img alt="logo" class="logo" src="assets/audio-ad-logo.jpeg"  />
+  </a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="section">
+    <div class="save">
+      <button class="secondary-btn">SAVE</button>
+    </div>
+
+    <div class="profile-image">
+      <img
+        alt="profile"
+        class="profile"
+        src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+      />
+      <div>upload profile picture</div>
+    </div>
+
+    <div class="input">
+      <input type="text" id="lname" name="lname" />
+      <div class="check-username">
+        <ion-icon name="checkmark-circle-outline"></ion-icon>
+        <div>check username</div>
+      </div>
+    </div>
+
+    <div class="input">
+      <h6>Address</h6>
+      <input type="text" id="lname" name="lname" />
+    </div>
+
+    <div class="input">
+      <h6>Name</h6>
+      <input type="text" id="lname" name="lname" />
+    </div>
+
+    <div class="input">
+      <h6>Mobile</h6>
+      <input type="text" id="lname" name="lname" />
+    </div>
+
+    <div class="input">
+      <h6>Email</h6>
+      <input type="text" id="lname" name="lname" />
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+      <img alt="logo" class="logo" src="assets/audio-ad-logo.jpeg"/>
+    </a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="section">
+    <div class="social-login fb">
+      <img />
+      <h6>Login with Facebook</h6>
+    </div>
+
+    <div class="social-login google">
+      <img />
+      <h6>Sign in with Google</h6>
+    </div>
+
+    <p class="or">or</p>
+
+    <div class="input">
+      <h6>Phone / Email</h6>
+      <input type="text" id="lname" name="lname">
+    </div>
+
+    <div class="input">
+      <h6>Password</h6>
+      <input type="text" id="lname" name="lname">
+    </div>
+
+    <p class="forgot-password">Forgot Password ?</p>
+
+    <button class="primary-btn">SIGN IN</button>
+
+    <h6 class="signup">Account not found, SIGNUP here!</h6>
+  </div>
+</ion-content>

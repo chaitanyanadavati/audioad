@@ -1,0 +1,27 @@
+.section {
+  .save {
+    text-align: right;
+  }
+
+  .profile-image {
+    text-align: center;
+    margin-bottom: 20px;
+
+    img {
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+  .check-username {
+    display: flex;
+    justify-content: end;
+    margin: 6px 0;
+
+    ion-icon {
+      margin: 2px;
+    }
+  }
+}

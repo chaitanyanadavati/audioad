@@ -7,10 +7,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     // { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Home', url: 'home', icon: 'home' },
-    { title: 'Browse Listings', url: '/folder/browseListings', icon: 'list' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'How to Setup Contract', url: '/folder/setupContract', icon: 'book' }
+    // { title: 'Home', url: 'home', icon: 'home' },
+    { title: 'Login XD9', url: 'login', icon: 'list' },
+    { title: 'Profile XD10', url: 'profile', icon: 'list' },
+    { title: 'Dashboard XD12', url: 'dashboard', icon: 'list' },
+    // { title: 'Browse Listings', url: '/folder/browseListings', icon: 'list' },
+    // { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
+    // { title: 'How to Setup Contract', url: '/folder/setupContract', icon: 'book' }
     // { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     // { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];

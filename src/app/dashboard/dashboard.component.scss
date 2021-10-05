@@ -1,0 +1,168 @@
+.section {
+  .logout {
+    display: flex;
+    justify-content: end;
+    p {
+      margin: 0 0 0 10px;
+    }
+  }
+
+  .add-business-input {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+    border: 1px solid;
+    padding: 12px 0px;
+    position: relative;
+
+    .close {
+      position: absolute;
+      top: 2px;
+      left: 250px;
+      font-size: 20px;
+    }
+
+    .label {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .input {
+      .label {
+        margin: 0px auto 5px;
+        text-align: initial;
+      }
+    }
+  }
+
+  .profile-card {
+    display: flex;
+    margin-top: 18px;
+
+    .label {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .profile-content {
+      margin-left: 4px;
+
+      h6,
+      p {
+        margin: 0 10px 4px;
+      }
+
+      p {
+        font-size: 10px;
+      }
+
+      .view-profile {
+        display: flex;
+        margin-top: 20px;
+
+        h6 {
+          ion-icon {
+            margin: -3px 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .personal-account {
+    margin: 26px auto;
+
+    h6 {
+      text-align: center;
+      ion-icon {
+        margin: -12px 0px;
+        font-size: 34px;
+      }
+    }
+  }
+
+  .add-business {
+    display: flex;
+    margin: 24px 0;
+    justify-content: space-between;
+
+    ion-icon {
+      font-size: 32px;
+    }
+
+    h6 {
+      margin: 0 10px 4px;
+    }
+
+    p {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+  }
+
+  .add-business-card {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+    position: relative;
+
+    .label {
+      border: 1px solid;
+      padding: 2px 6px;
+      margin: 4px 0 !important;
+    }
+
+    .pencil {
+      position: absolute;
+      top: 0px;
+      left: 52px;
+      font-size: 18px;
+    }
+
+    div {
+      margin: auto 0px auto 20px;
+      min-width: 160px;
+
+      h6 {
+        margin: 0;
+      }
+    }
+
+    ion-icon {
+      font-size: 30px;
+      margin: auto 0;
+    }
+
+    .label {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    ion-icon {
+      position: relative;
+      top: 2px;
+      left: 8px;
+    }
+  }
+}

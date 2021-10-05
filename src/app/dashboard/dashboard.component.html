@@ -1,0 +1,105 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+      <img alt="logo" class="logo" src="assets/audio-ad-logo.jpeg"   />
+  </a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="section">
+    <div class="logout">
+      <ion-icon name="log-out-outline"></ion-icon>
+      <p>Logout</p>
+    </div>
+
+    <div class="profile-card">
+      <img
+        alt="profile"
+        class="profile"
+        src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+      />
+
+      <div class="profile-content">
+        <h6>Poonam, Gachibowli, Hydeabad.</h6>
+        <p>Member from 20 Feb 2021</p>
+
+        <div class="view-profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+          <h6>
+            view profile <ion-icon name="chevron-forward-outline"></ion-icon>
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="personal-account">
+      <h6>
+        Personal Account
+        <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+      </h6>
+    </div>
+
+    <div class="add-business">
+      <ion-icon name="add-circle-outline"></ion-icon>
+      <div>
+        <h6>Add your business</h6>
+        <p>If you want to create Business AD</p>
+      </div>
+    </div>
+
+    <div class="add-business-input">
+      <div>
+        <img
+          alt="profile"
+          class="profile"
+          src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+        />
+        <h6 class="label">Logo</h6>
+      </div>
+
+      <div class="input">
+        <h6 class="label">Brand Name</h6>
+        <input type="text" id="lname" name="lname" />
+      </div>
+
+      <ion-icon class="close" name="close-circle-outline"></ion-icon>
+    </div>
+
+    <div class="add-business-card">
+      <img
+        alt="profile"
+        class="profile"
+        src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+      />
+
+      <ion-icon class="pencil" name="pencil-outline"></ion-icon>
+
+      <div>
+        <h6>Lovely Chocos</h6>
+        <div class="label">you received an lead</div>
+      </div>
+
+      <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+    </div>
+
+    <div class="add-business-card">
+      <img
+        alt="profile"
+        class="profile"
+        src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+      />
+
+      <ion-icon class="pencil"  name="pencil-outline"></ion-icon>
+
+      <div>
+        <h6>Kickday</h6>
+      </div>
+
+      <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+    </div>
+  </div>
+</ion-content>
