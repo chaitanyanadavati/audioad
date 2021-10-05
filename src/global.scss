@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -26,8 +26,37 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 .logo {
-    height: 60px;
-    float: right;
-    position: relative;
-    bottom: 3px;
+  height: 60px;
+  float: right;
+  position: relative;
+  bottom: 3px;
+}
+
+ion-content {
+  .section {
+    padding: 24px;
+    width: 320px;
+    margin: auto;
+  }
+}
+
+.primary-btn {
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  background: #c30a0a;
+}
+
+.secondary-btn {
+  color: #000;
+  width: 70px;
+  height: 40px;
+  background: #fff;
+}
+
+.input {
+    input {
+        width: 100%;
+        height: 32px;
+    }
 }
