@@ -1,0 +1,76 @@
+.section {
+  .back-add-gst {
+    display: flex;
+    justify-content: space-between;
+
+    ion-icon {
+      font-size: 26px;
+    }
+
+    .add-gst {
+      display: flex;
+
+      p {
+        margin: 4px;
+      }
+    }
+  }
+
+  .business-image {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+
+    div {
+      font-size: 20px;
+      margin: auto 10px;
+      font-weight: 400;
+    }
+
+    img {
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+
+  .postings-contract {
+    display: flex;
+    justify-content: space-around;
+
+    .head {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+
+      ion-icon {
+        font-size: 30px;
+      }
+
+      p {
+        margin: 0 4px;
+        font-size: 26px;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      margin: 4px;
+    }
+  }
+
+  .gst-billaddress {
+    padding: 20px 12px;
+    border: 1px solid;
+    margin: 20px 0;
+
+    .close {
+      font-size: 24px;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

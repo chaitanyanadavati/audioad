@@ -1,0 +1,66 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+      <img alt="logo" class="logo" src="assets/audio-ad-logo.jpeg" />
+    </a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="section">
+    <div class="back-add-gst">
+      <ion-icon name="chevron-back-circle-outline"></ion-icon>
+
+      <div class="add-gst">
+        <ion-icon name="document-attach-outline"></ion-icon>
+        <p>GST</p>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </div>
+    </div>
+
+    <div class="business-image">
+      <img
+        alt="business"
+        class="business"
+        src="https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg"
+      />
+      <div>Business Name</div>
+    </div>
+
+    <div class="postings-contract">
+      <div>
+        <div class="head">
+          <ion-icon name="document-text-outline"></ion-icon>
+          <p>2</p>
+        </div>
+        <p>AD POSTINGS</p>
+      </div>
+
+      <div>
+        <div class="head">
+          <ion-icon name="document-lock-outline"></ion-icon>
+          <p>4</p>
+        </div>
+        <p>CONTRACT</p>
+      </div>
+    </div>
+
+    <div class="gst-billaddress">
+      
+      <ion-icon class="close" name="close-circle-outline"></ion-icon>
+      
+      <div class="input">
+        <h6>GST Number</h6>
+        <input type="text" id="gst" name="gst" />
+      </div>
+
+      <div class="input">
+        <h6>Billing Address</h6>
+        <textarea type="text" id="bill-address" name="bill-address"></textarea>
+      </div>
+    </div>
+  </div>
+</ion-content>

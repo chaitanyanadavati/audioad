@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { PersonalAccountComponent } from './personal-account/personal-account.component';
+import { PostInnerpageComponent } from './post-innerpage/post-innerpage.component';
 import { PostComponent } from './post/post.component';
+import { PostingsComponent } from './postings/postings.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
@@ -26,6 +29,18 @@ const routes: Routes = [
   {
     path: 'profile',
     component: ProfileComponent
+  },
+  {
+    path: 'personal-account',
+    component: PersonalAccountComponent
+  },
+  {
+    path: 'postings',
+    component: PostingsComponent
+  },
+  {
+    path: 'post-innerpage',
+    component: PostInnerpageComponent
   },
   {
     path: 'login',

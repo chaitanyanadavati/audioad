@@ -1,0 +1,101 @@
+.section {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    ion-icon {
+      font-size: 26px;
+    }
+
+    p {
+      text-align: center;
+      margin: 0 4px;
+      font-size: 12px;
+    }
+  }
+
+  .post-content {
+    display: flex;
+    margin: 20px 0;
+
+    .title {
+      margin: 0 16px 0 0;
+    }
+
+    .edit {
+      display: flex;
+
+      ion-icon {
+        font-size: 14px;
+      }
+
+      p {
+        margin: 0 4px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .post-time-ivoice {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .expire {
+      width: 30%;
+    }
+
+    p {
+      margin: 0 4px;
+    }
+
+    .invoice {
+      display: flex;
+
+      ion-icon {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .spent {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+
+    ion-icon {
+      font-size: 16px;
+    }
+
+    p {
+      margin: 0 4px;
+    }
+  }
+
+  .analytics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .category {
+      width: 40%;
+      padding: 20px;
+      border: 1px solid;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 40px;
+      position: relative;
+
+      ion-icon {
+        font-size: 40px;
+      }
+
+      p {
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+      }
+    }
+  }
+}

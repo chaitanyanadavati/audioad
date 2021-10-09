@@ -1,0 +1,84 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+      <img alt="logo" class="logo" src="assets/audio-ad-logo.jpeg" />
+    </a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="section">
+    <div class="head">
+      <ion-icon name="chevron-back-circle"></ion-icon>
+
+      <div>
+        <p>POST ID</p>
+        <p>1123</p>
+      </div>
+    </div>
+
+    <div class="post-content">
+      <div>
+        <p class="title">
+          Toyota 4*4 wheel for sale with 33000km locate in delhi
+        </p>
+        <small>Published a day before</small>
+      </div>
+
+      <div class="edit">
+        <ion-icon name="create-outline"></ion-icon>
+        <p>EDIT</p>
+      </div>
+    </div>
+
+    <div class="post-time-ivoice">
+      <p class="expire">Ad Expiring in 2 days</p>
+
+      <button>Renew Now</button>
+
+      <div class="invoice">
+        <ion-icon name="receipt-outline"></ion-icon>
+        <p>1 Invoice</p>
+      </div>
+    </div>
+
+    <div class="spent">
+      <ion-icon name="cash"></ion-icon>
+      <p>199</p>
+      <small>spent</small>
+    </div>
+    <div class="analytics">
+      <div class="category">
+        <ion-icon name="volume-high"></ion-icon>
+        <p>1120 Played</p>
+      </div>
+      <div class="category">
+        <ion-icon name="document-text-outline"></ion-icon>
+        <p>2 Played</p>
+      </div>
+      <div class="category">
+        <ion-icon name="map"></ion-icon>
+        <p>11 Used Directions</p>
+      </div>
+      <div class="category">
+        <ion-icon name="cart"></ion-icon>
+        <p>5 Clicks</p>
+      </div>
+      <div class="category">
+        <ion-icon name="call"></ion-icon>
+        <p>15 Used Contacts</p>
+      </div>
+      <div class="category">
+        <ion-icon name="share-social"></ion-icon>
+        <p>15 Used Shares</p>
+      </div>
+      <div class="category">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        <p>2 Chats</p>
+      </div>
+    </div>
+  </div>
+</ion-content>
